@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html> 
+	<head> 
+<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">	
+		<link rel="stylesheet" href="../style/lamplighter.css">
+				<link rel="shortcut icon" href="../images/logo_tab.png">
+		<title>Lamplighter Productions</title>
+				<meta property="og:title" content="Lamplighter Productions" />
+		<meta property="og:type" content="company" />
+		<meta property="article:author" content="Evan Metsky" />
+		<meta property="og:image" content="http://i.imgur.com/BRalFmg.jpg" />
+		<meta property="og:url" content="http://www.lamplighterproductions.org" />
+		<meta property="og:description" content="Socially Engaging Art" />
+		<link rel="stylesheet" href="../lib/css/jquery.maximage.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
+		
+		<style type="text/css" media="screen">			
+			#maximage {
+			position:absolute !important;
+			}
+			
+			/*Set my logo in bottom left*/
+			#logo {
+				bottom:30px;
+				height:auto;
+				left:30px;
+				position:absolute;
+				width:34%;
+				z-index:1000;
+			}
+			#logo img {
+				width:100%;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class='main' id = "partial">
+			<div class = "logo" style = "float:left;"><a href = "../"><img src = "../images/logo_text.png"></a></div>
+			<div class = "top-menu-bar">
+				<ul class = "navigation">
+					<li class = "menu-item" id = "about_li">
+						<a href = "../about">About Us</a>
+					</li>
+					<li class = "menu-item">
+						<a href = "../educational">Workshops</a>
+					</li>
+					<li class = "menu-item">
+						<a href = "../productions">Shows</a>
+					</li>
+				<!--<li class = "menu-item">
+						<a href = "#">Productions</a>
+					</li>-->
+				</ul>
+			</div>
+
+		
+		<div id="maximage"class="mc-cycle">
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/caleb.jpg" alt=""/>
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>Cyrano de Bergerac</i>, 2015, Presented by Parallel 45 Theatre Company<br>Caleb Wimbrow (Carpenter and Stage Manager)</h3>				
+					</div>		
+				</div>
+			</div>
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/jordan.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>Common Ground</i>, 2014<br>Jordan Sucher (Writer and Director)</h3>
+					</div>
+				</div>
+			</div>
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/mida.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>The Apple</i>, 2013<br>Mida Chu (Writer and Director)</h3>
+					</div>
+				</div>
+			</div>
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/jordan1.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>The Wall</i>, 2011<br>Sasha Atlas (Director and Producer), Jordan Sucher (Producer)</h3>
+					</div>
+				</div>
+			</div>
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/vanessa.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>Pittsburgh Profiles</i>, 2014<br>Vanessa Frank (Co-Creator), Jordan Sucher (Co-Creator)</h3>
+					</div>
+				</div>
+			</div>
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/mida-1.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>Urlicht</i>, 2013<br>Mida Chu (Writer and Director)</h3>
+					</div>
+				</div>
+			</div>			
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/mida-jordan.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>Surrounded</i>, 2014, created by The Unexpected Laboratory.<br>Mida Chu (Media Designer), Jordan Sucher (Media Designer), Caleb Wimbrow (Actor)</h3>
+					</div>
+				</div>
+			</div>
+			<div class = "mc-image">
+				<img src="../images/slideshow_about/slideshow5.jpg" alt="" />
+				<div class = "video-bar" id = "video-bar-about">
+					<div class = "in-slide-content">
+						<h3><i>Strange Trees</i>, 2015, performing at LIC Lounge.<br>Paul Weintrob (songwriter, instrumentalist)</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
+		<script src="../lib/js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			$(function(){
+				// Trigger maximage
+				jQuery('#maximage').maximage();
+			});
+		</script>
+
+		<div class = "content">
+			<div class = "about">
+				
+				<br><br><p>Lamplighter Productions, founded in 2015, is a hybrid arts production company. We explore the boundaries of pop culture and political activism through multidisciplinary art production. Our members are filmmakers, musicians, actors, and dramaturges with a deep respect for the social experience of art making, united around a shared desire to improve the world. Because all of our projects are created non-hierarchically, with creative power dispersed equally, we are able to model new forms of collaboration and engagement through our work.</p>
+			</div>
+			<div class = "people">
+				<span class = "underline">Meet The Team</span>
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Jordan Sucher</h3><p>&nbsp;</p>
+					<p>Knows a little about a lot, and a lot about dramaturgy. Exists at the intersection of theatre, film, and music. Superpowers include producing and over-thinking. President of the Carnegie Mellon Filmmaking Club. Producer of the 2015 Shot for Shot Student Film Festival. Music Director at WRCT Pittsburgh 88.3FM. Production dramaturgy for Carnegie Mellon School of Drama&#8217;s The Wild Party, Bliss, Water By The Spoonful, Milk Like Sugar, and Psychosis 4.48. Documentary filmmaker for The Unexpected Laboratory&#8217;s Surrounded. Booking Director at Moron Mountain Booking.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "jordan"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Sasha Atlas</h3><p>&nbsp;</p>
+					<p>Musician, director, actor, producer, fake lawyer. BFA candidate at NYU Tisch Playwrights Horizons Theater School, concentration in Directing. Double major in Politics. Director at West Village Musical Theater Festival. Winner of 2013 Random House Creative Writing Competition. Best Solo Performance of Original Song of 2014 Ultraviolet Talent Competition. Credits include Bellevue Sketches (Off-Bway),   Fiddler on The Roof (Manhattan School of Music).  Proud member of NYU Mock Trial Team.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "sasha"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Vanessa Frank</h3><p>&nbsp;</p>
+					<p>Vanessa is a rising senior drama major at Carnegie Mellon University with a concentration in dramaturgy. Production credits include The Wiz by William F. Brown and MilkMilkLemonade by Joshua Conkel. Worked with Angel TV to film live re-creation of Love&#8217;s Welcome at Bolsover for the English Heritage Foundation. Mentor and theater instructor for Gwen&#8217;s Girls, an after-school program for at-risk girls. Music journalist for The Cut magazine and co-creator of Pittsburgh Profiles web series.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "vanessa"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Caleb Wimbrow</h3><p>&nbsp;</p>
+					<p>Caleb graduated from Interlochen Arts Academy as a theatre major and attended the Chicago College of Performing Arts at Roosevelt University. He has also been a set carpenter at the Interlochen Arts Camp for two years, performed in Surrounded with The Unexpected Laboratory as an actor, writer, and vocal foley artist, and is currently the resident Stage Manager at Traverse City&#8217;s Parallel 45 theatre company.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "caleb"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Charlie Oniszczuk</h3><p>&nbsp;</p>
+					<p>A hybrid of a technician and a artist. Currently being mentored in Entertainment Technology at New York City College of Technology. Interned as a stagehand at New York&#8217;s Public Theater. Managed a student tribute musical to Pink Floyd&#8217;s The Wall. Light technician and team member at City Tech&#8217;s Voorhees Theater. Acted as Geronte in Christopher Swift&#8217;s production of Scapino.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "charlie"></div>
+				</div>		
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Paul Weintrob</h3><p>&nbsp;</p>
+					<p>Intermedia artist with a BA from Bard College Theater & Performance. Has composed and self-released four albums under the name Self Itch, and currently performs with Strange Trees (a found-object ambient folk project) and Mukza (a psychedelic punk band). Theater credits include Ahab in Moby Dick: Rehearsed, Peter in The Heidi Chronicles, and Sandwichface in H2 Oh, No!: The Musical. Film credits include The Mindmaker, Beware the Troll Hunter, and Shit Happens. Intern at BAM and former Music Together instructor.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "paul"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Michael Sypa</h3><p>&nbsp;</p>
+					<p>Writer at heart, he&#8217;s written for three off-broadway plays as part of MCC&#8217;s &#34;Freshplay&#34; Festival and he&#8217;s starred in their annual off-broadway show &#34;Uncensored&#34; twice. Served  as pioneer of the 14th Street Y&#8217;s &#34;Seasonal Theater Intensives&#34; and now helps pioneer ours as Improv Instructor. After years of building his theater knowledge, he helps us and you find our voice and confidence.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "michael"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Mida Chu</h3><p>&nbsp;</p>
+					<p>Multimedia artist with an emphasis on film and music. 2014 National YoungArts Winner. His films have been screened at Los Angeles Film Festival, Nashville Film Festival, National Film Festival for Talented Youth (NFFTY). Passionate in multidisciplinary collaborations: Media designer for The Unexpected Laboratory&#8217;s Surrounded. Director for the multimedia woodwind ensemble project Color of My Mind with Angel Lam, who is a collaborator of Yo-Yo Ma and The Silk Road Ensemble. Currently studying Philosophy with a focus on the philosophy of science.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "mida"></div>
+				</div>
+				<hr>
+				
+				<div class = "person-text" style = "display:inline-block;" align="right">
+					<h3>Jill Bellovin</h3><p>&nbsp;</p>
+					<p>Strong foundation as a classically trained musician, Jill is an emerging artist pursuing exploration into multi-disciplinary works using written word, construction tactics, sketching and design with an eco-edge. Recent/current projects include self-recorded E.P., Rooftops, a multi-issue Zine, and functional sculptors using recycled materials. She is also the coordinator of a venue, Station P, that hosts interdisciplinary art, music, and experimental sound/noise shows. As a handyman, she has tackled many maintenance and constructions projects including refinishing wood floors, painting, furniture building, and landscape upkeep. Currently a junior at Carnegie Mellon University pursing a BHA degree in Bassoon Performance and Creative Writing.</p>
+				
+				<div class = "person-image" style = "display:inline-block;" align="left" id = "jill"></div>
+				</div>
+			</div>
+				<br><br>
+		
+		<footer id = "footer">
+			<div id = "full_footer">
+				<div id = "footer_widget">
+					<h3>Socially Engaging Art</h3>
+					<p>Lamplighter is a hybrid arts production company. Run collaboratively with a DIY, non-hierarchical ethos, we blend live performance, film, music, and a hefty dose of interactivity to create work that engages with pop culture and current events.</p>
+				</div>
+				<div id = "footer_widget">
+					<h3>Contact Us</h3>
+					<p><img src = "../images/icons/phone.png" style = "width:5%;height:auto;"> Phone: 718-702-4219</p>
+					<hr style = "margin:0;margin-right:7%; background:white;">
+					<p><img src = "../images/icons/email.png" style = "width:5%;height:auto;padding-top:3px"> Email: <a href = "mailto:info@lamplighterproductions.org"target="_blank">info@lamplighterproductions.org</a></p>
+				</div>
+				<div id = "footer_widget">
+					<h3>Find us online!</h3>
+					<div id = "button-link" style = "display:inline-block;" align = "left"><a href = "https://www.facebook.com/lamplighterproductions"target="_blank"><img src = "../images/icons/facebook.png" style = "height:25px;width:25px;margin:0;"></a></div>
+					<div id = "button_link" style = "display:inline-block;" align = "center"><a href = "https://twitter.com/lmplghtr"target="_blank"><img src = "../images/icons/twitter.png" style = "height:25px;width:25px;margin:0;"></a></div>
+				
+				<div id = "button_link" style = "display:inline-block;" align = "center"><a href = "www.lamplighternyc.tumblr.com"target="_blank"><img src = "../images/icons/tumblr.png" style = "height:25px;width:25px;margin:0;"></a></div>
+				
+				<div id = "button_link" style = "display:inline-block;" align = "center"><a href = "https://instagram.com/lamplighter_prod/"target="_blank"><img src = "../images/icons/instagram.png" style = "height:25px;width:25px;margin:0;"></a></div>
+			
+
+				<br><br>
+				</div>
+				<div id = "bottom_footer">
+					<p style = "float:left; margin-left:10%">Copyright 2015 Lamplighter Productions</p>
+					<p style = "float:right; margin-right:10%">Developed by Evan Metsky</p>
+				</div>
+			</div>
+
+
+		</footer>
+
+</div>
+
+
+
+	</body>
+
+
+</html> 
