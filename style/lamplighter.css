@@ -1,0 +1,804 @@
+@font-face{
+	font-family: Liberation-Regular;
+	src:url(../fonts/LiberationSans-Regular.ttf);
+}
+@font-face{
+	font-family: Liberation-Bold;
+	src:url(../fonts/LiberationSans-Bold.ttf);
+}
+@font-face{
+	font-family: Avenir;
+	src:url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+@font-face{
+	font-family: Avenir-Bold;
+	src:url(../fonts/AvenirNextLTPro-Bold.otf);
+}
+@font-face{
+	font-family: LondrinaShadow;
+	src:url(../fonts/LondrinaSolid-Regular.otf);
+}
+
+
+body {
+	font-family: Liberation-Bold;
+	overflow-x: hidden;
+	margin-right: 15em;
+
+}
+body, html {
+	margin: 0 !important;
+	padding:0 !important;
+	width:100%;
+	height:100%;
+}
+
+.menu-item {
+	margin-top: 5%;
+}
+.main{
+
+    position:relative; width:100%; height:100%;
+
+}
+.mc-cycle {
+	width:100% !important;
+	height:100% !important;
+}
+#still {
+	height:100%;
+	position: absolute;
+	top:0px;
+	z-index:-1;
+}
+#partial {
+	position:relative; width:100%; height:70%;
+}
+
+#not_full {
+	position:relative; width:100%; height:100%;
+	 	background-image: url("backgroundimage.gif");
+ 	background-repeat: no-repeat;
+    background-size: cover;
+}
+#about_li a{
+	text-decoration: none;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	color:white;
+}
+#about_li a:hover{
+	text-decoration: none;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	color:white;
+}
+
+
+.logo {
+	width:15%;
+	height:auto;
+	margin-left:10%;
+	margin-top: 1.8%;
+}
+#small-logo {
+	width:12%;
+}
+#mission h3 {
+
+	left:30%;
+}
+#ed h3 {
+
+}
+
+.main_title h3{
+	top:40%;
+	width:100%;
+	left:50%;	
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+	color:white;
+	position: absolute;
+  	text-align: center; 
+	font-family: Liberation-Bold;
+	font-size: 68px;
+	font-weight:normal;
+
+}
+.main_title p{
+	color:white;
+	margin-top: 1.5em;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+	font-family: Liberation-Bold;
+	font-size: 24px;
+	font-weight:normal;
+
+}
+#sub {
+
+ 	background-image: url("tealbackground.png");
+
+}
+.main {
+	margin:0;
+}
+
+.top-menu-bar {
+	text-align: right;
+	margin-right: 10em;
+}
+
+.top-menu-bar ul {
+	margin-top:0;
+    list-style-type: none;
+    padding-top: 5em;
+}
+
+.top-menu-bar li {
+	text-shadow:1px 1px 2px black;
+	font-size: 22px;
+    display: inline;
+    padding-right: 3em;
+}
+
+.top-menu-bar li a{
+	text-decoration: none;
+	color:white;
+}
+
+.top-menu-bar li a:hover{
+	text-decoration: none;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	color:white;
+}
+
+.top-menu-bar li a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+
+#sub h1 {
+
+	color:black;
+
+	margin-left: 10%;
+    text-align: left;
+	font-family: Liberation-Bold;
+	font-size: 30px;
+	font-weight:normal;
+	overflow: visible;
+}
+#sub h3 {
+	color:black;
+	margin-top: 0px;
+	margin-left: 10%;
+    text-align: left;
+	font-family: LondrinaShadow;
+	font-size: 72px;
+	font-weight:normal;
+	margin-bottom: 0px;
+	overflow: visible;
+}
+
+#sub p {
+	color:black;
+	margin-right: 25%;
+	margin-left: 15%;
+    text-align: left;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight:normal;
+	overflow: visible;
+}
+
+
+
+#classes h1 {
+
+	color:black;
+
+	margin-left: 10%;
+    text-align: left;
+	font-family: Liberation-Bold;
+	font-size: 30px;
+	font-weight:normal;
+}
+#classes h3 {
+	color:black;
+	margin-top: 0px;
+	margin-left: 10%;
+    text-align: left;
+	font-family: LondrinaShadow;
+	font-size: 72px;
+	font-weight:normal;
+	margin-bottom: 0px;
+}
+
+#classes p {
+	color:black;
+	margin-right: 25%;
+	margin-left: 15%;
+    text-align: left;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight:normal;
+}
+
+#classes {
+
+ 	background-image: url("orangebackground.png");
+
+}
+
+#footer_widget h3 {
+
+	color:white;
+	position: center;
+
+    text-align: left;
+	font-family: Liberation-Bold;
+	font-size: 18px;
+	font-weight:normal;
+}
+
+
+#footer_widget a, p {
+	text-decoration: none;
+	color:white;
+	position:center;
+    text-align: left;
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight:normal;
+}
+#footer_widget a:hover {
+	text-decoration: none;
+	color:#4ac0b5;
+	position:center;
+    text-align: left;
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight:normal;
+}
+#footer a:visited{
+	text-decoration: none;
+	color:white;
+	position:center;
+    text-align: left;
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight:normal;
+}
+#footer_widget a:visited:hover {
+	text-decoration: none;
+	color:#4ac0b5;
+	position:center;
+    text-align: left;
+	font-family: Avenir;
+	font-size: 16px;
+	font-weight:normal;
+}
+
+#footer {
+	border-top: 5px solid #f2c12e;
+	overflow: hidden;
+	clear:both;
+	background: #323232;
+	margin:0 auto;
+
+
+}
+#footer_widget {
+	width:22% !important;
+	margin-left:10%;
+	float:left;
+	position:relative;
+	margin-bottom: 5%;
+	margin-top: 3%;
+}
+#bottom_footer {
+	height:50px;
+	line-height: 42px;
+	position: relative;
+	overflow: hidden;
+	clear:both;
+	background: #252525;
+
+
+}
+#bottom_footer p {
+	font-size: 10px;
+}
+.logo_center {
+	width:6.5%;
+	height:auto;
+	margin-left:47%;
+
+}
+#bottom {
+	text-align: center;
+	margin:0;
+}
+#bottom li {
+	margin:0;
+	font-size: 12px;
+    display: inline;
+    position:center;
+}
+#needs-text p {
+	width:auto;
+	margin-left:0%;
+	float:left;
+	margin-right: 0%;
+}
+#needs_title{
+	font-family: Liberation-Bold;
+	font-size:24px;
+	color:#f2c12e;
+}
+#date_title {
+	font-size:24px;
+	color:#4ac0b5;
+}
+#dates {
+	font-family: Avenir;
+	font-size:14px;
+
+
+}
+#needs-left {
+	width:56%;
+	margin-right: 0;
+}
+#needs-right{
+	width:20%;
+	margin-top:0;
+	margin-right: 20%;
+}
+#needs-right p{
+	
+	margin-top:0;
+}
+#nav1{
+	margin:0;
+}
+.icons {
+	margin-left: 45%;
+	margin-right: 45%;
+}
+.icons img {
+	width:35%;
+	height:auto;
+}
+
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+
+.content {
+	position:absolute; width:100%; height:125%;
+    background-size: cover;
+    position:absolute; width:100%; top:100%;
+}
+.about {
+
+	margin-left: 10%;
+}
+.front {
+	margin: 20%;
+	background-color: white;
+}
+.about h3 {
+	text-shadow: 1px 1px black;
+	position: center;
+	color:#4ac0b5;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: LondrinaShadow;
+	font-size: 72px;
+
+}
+.underline {
+	margin-bottom:0px;
+	text-decoration: none;
+	font-family: Liberation-Bold;
+	margin-top: 24px;
+	font-size: 36px;
+	color:black;
+	font-weight: normal;
+	text-align: left;
+
+}
+.mc-image-class {
+position: absolute; 
+top: 0px; 
+left: 0px; 
+display: block; 
+z-index: 8; 
+opacity: 1; 
+width: 100%; 
+height: 70%; 
+background-image: url(../images/class_still.jpg);
+background-repeat: no-repeat;
+}
+.video-bar {
+	background-color: #323232;
+	opacity: 0.7;
+	color:white;
+	top: 85%;
+	width:100%;
+	margin-right: 0;
+	position:absolute;
+    text-align: left;
+	font-family: Liberation-Bold;
+	font-size: 18px;
+	font-weight:normal;
+	z-index:1;
+}
+#video-bar-class{
+	top: 80%;
+}
+#video-bar-class:hover{
+	top: 80%;
+}
+
+#video-bar-about {
+	background-color: #323232;
+	opacity: 0.7;
+	color:white;
+	top: 60%;
+	width:100%;
+	height:10%;
+	margin-right: 0;
+	position:absolute;
+    text-align: left;
+	font-family: Avenir-Bold;
+	font-size: 18px;
+	font-weight:normal;
+	z-index:1;
+	overflow: hidden;
+}
+
+.video-bar:hover {
+	background-color: #4ac0b5;
+	opacity: 0.7;
+	color:white;
+	top: 85%;
+	width:100%;
+	margin-right: 0;
+	position:absolute;
+    text-align: left;
+	font-family: Liberation-Bold;
+	font-size: 18px;
+	font-weight:normal;
+	z-index:1;
+}
+#video-bar-about:hover {
+	background-color: #4ac0b5;
+	opacity: 0.7;
+	color:white;
+	top: 55%;
+	height:15%;
+	width:100%;
+	margin-right: 0;
+	position:absolute;
+    text-align: left;
+	font-family: Liberation-Bold;
+	font-size: 18px;
+	font-weight:normal;
+	z-index:1;
+}
+.video-bar h3 {
+	margin-left: 10%;
+}
+#video-bar-about h3 {
+	margin-left: 10%;
+	font-family: Avenir;
+	font-size: 18px;
+}
+.video-bar p {
+	
+	font-family: Liberation-Bold;
+	font-size: 14px;
+	font-weight:normal;
+}
+.about p {
+
+	color:black;
+	margin-right: 15%;
+	margin-top: 1em;
+	text-align: left;
+	font-family: Avenir-Bold;
+	font-size: 24px;
+	font-weight:normal;
+	line-height: 140%;
+}
+.about ul {
+
+	margin-right: 25%;
+	margin-top:0 ;
+	text-align: left;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight:normal;
+}
+.people {
+	margin-top: 72px;
+	margin-left: 10%;
+}
+.people h3 {
+	font-family: Liberation-Bold;
+	margin-top: 24px;
+	font-size: 36px;
+	margin-bottom: 0px;
+	color:black;
+	font-weight: normal;
+	text-align: left;
+
+}
+.people p {
+
+	margin-right: 25%;
+	margin-top: ;
+	text-align: left;
+	font-family: Avenir;
+	font-size: 18px;
+	font-weight:normal;
+}
+.photo {
+
+  height:150px;
+  width:150px;
+
+  border-radius:50%;
+  border-color:black;
+  overflow:hidden;
+}
+.person {
+	font-family: Avenir;
+	margin-top: 0px;
+	font-size: 18px;
+	color:black;
+	margin-left:10%;
+
+}
+
+.person-text h3 {
+	font-family: Liberation-Bold;
+	margin-top: 24px;
+	font-size: 24px;
+	font-weight: normal;
+	color:#f2c12e;
+	float:left;
+	margin-left:28%;
+	text-align: left;
+}
+.class_title{
+	font-family: Liberation-Bold;
+	margin-top: 24px;
+	font-size: 24px;
+	color:#f2c12e;
+	font-weight: normal;
+	margin-left:10%;
+	text-align: left;	
+}
+.class_title h3{
+	margin-bottom: 0px;
+}
+.register a {
+	font-family: Liberation-Bold;
+	margin-top: 24px;
+	font-size: 36px;
+	color:black;
+	font-weight: normal;
+
+	text-align: left;	
+    text-decoration: underline;
+
+}
+.register a:hover {
+	color: #00ddc2;
+	text-decoration: underline;
+}
+
+
+#CTO {
+	font-size: 18px;
+	margin-top:5px;
+	margin-bottom: 24px;
+	color:black;
+	font-family: Liberation-Regular;
+	font-weight: lighter;
+}
+.class_instructors h3 {
+	margin-left: 10%;
+	font-size: 18px;
+	margin-top:5px;
+	color:black;
+	font-family: Liberation-Bold;
+	font-weight: normal;
+}
+.class_bullets ul {
+
+	margin-right: 15%;
+	margin-left: 10%;
+	margin-top:24px;
+	text-align: left;
+	font-family: Avenir;
+	font-size: 18px;
+	font-weight:normal;
+}
+.class_summary p {
+	font-family: Avenir;
+	margin-top: 18px;
+	font-size: 18px;
+	color:black;
+	margin-right: 15%;
+	margin-left:10%;
+	
+}
+#name p{
+	text-align: center;
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+}
+#CTO {
+	font-size: 18px;
+	color:black;
+	font-family: Liberation-Regular;
+	font-weight: lighter;
+}
+
+.person-text p {
+	font-family: Avenir;
+	margin-top: 0px;
+	font-size: 18px;
+	color:black;
+	width:60%;
+	margin-right: 12%;
+	float:right;
+}
+hr {
+	margin-right: 15%;
+	border: 0;
+    height: 1px;
+    background: #4ac0b5;
+
+}
+
+.person-image {
+  margin-top:-4%;
+
+  padding:10px;
+  height:200px;
+  width:200px;
+
+  border-radius:50%;
+  border-color:black;
+  overflow:hidden;
+  float:left;
+}
+#jordan {
+	background:url(../images/people/jordan.jpg);
+	background-size:270px 400px;
+	background-repeat:no-repeat;
+	background-position: 0px -30px;
+}
+#jordan_class {
+	background:url(../images/people/jordan.jpg) no-repeat;
+	background-size:220px 310px;
+	background-position: -10px -20px;
+;
+}
+#sasha {
+	background:url(../images/people/Sasha.jpg);
+	background-size: 220px 320px; 
+	background-repeat:no-repeat;
+}
+#sasha_class {
+	background:url(../images/people/Sasha.jpg) no-repeat;
+	background-size:150px 200px;
+	background-position: 0px -10px;
+}
+#jill_class {
+	background:url(../images/people/jill_class.png) no-repeat;
+	background-size:150px 150px;
+}
+#jill {
+	background:url(../images/people/jill_class.png) no-repeat;
+	background-size: 300px 320px; 
+	background-position:-40px 0px;
+	background-repeat:no-repeat;
+}
+#charlie {
+	background:url(../images/people/Charlie.jpg); 
+	background-repeat:no-repeat;
+	background-size: 250px 375px;
+	background-position: -20px -15px;
+}
+#charlie_class {
+	background:url(../images/people/Charlie.jpg) no-repeat;
+	background-size:150px 220px;
+
+}
+#paul {
+	background:url(../images/people/Paul.jpg);
+	background-repeat: no-repeat;
+	background-size: 220px 310px;
+	background-position: 0px -20px;
+}
+#paul_class {
+	background:url(../images/people/Paul.jpg) no-repeat;
+	background-size:150px 200px;
+}
+#mida {
+	background:url(../images/people/mida.png) no-repeat;
+}
+#mida_class {
+	background:url(../images/people/mida_class.png) no-repeat;
+	background-size:150px 150px;
+
+}
+
+#michael {
+	background:url(../images/people/Sypa.jpg); 
+	background-repeat:no-repeat;
+	background-size: 230px 220px;
+
+}
+.full-text-image{
+	height:800px;
+}
+
+.right-half{
+	width:45%;
+	margin-right: 15%
+
+}
+.right-half a{
+	text-decoration: underline;
+	color:black;
+}
+.right-half a:visited{
+	text-decoration: underline;
+	color:black;
+}
+.left-half {
+	width:40%;
+}
+#michael_class {
+	background:url(../images/people/Sypa.jpg) no-repeat;
+	background-size:160px 150px;
+}
+#vanessa {
+	background:url(../images/people/Vanessa.jpg); 
+	background-repeat:no-repeat;
+	background-size: 230px 270px;
+	background-position: -10px 0px;
+}
+#vanessa_class {
+	background:url(../images/people/vanessa_class.png) no-repeat;
+	background-size:150px 150px;
+}
+#caleb {
+	background:url(../images/people/caleb.png) no-repeat;
+}
+.class h3 {
+	font-family: Liberation-Bold;
+	margin-top: 24px;
+	font-size: 22px;
+	color:black;
+	margin-left: 10%;
+}
